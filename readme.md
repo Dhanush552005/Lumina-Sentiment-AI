@@ -1,7 +1,10 @@
-# Lumina Sentiment AI: Neural Sentiment Intelligence 🏨
+#  Lumina Sentiment AI: Neural Sentiment Intelligence 🏨
 
-**Lumina Sentiment AI** is a premium full-stack sentiment analysis platform designed for the hospitality industry. It uses a **Transformer-based deep learning model (DistilBERT)** to understand context, tone, and nuanced sentiment in guest reviews.
+**Lumina Sentiment AI** is a premium full-stack sentiment analysis platform designed for the hospitality industry.  
+It uses a **Transformer-based deep learning model (DistilBERT)** to understand context, tone, and nuanced sentiment in guest reviews.
+
 ---
+
 ## 🚀 Key Features
 
 - 🧠 **Transformer Neural Core (DistilBERT)**  
@@ -15,9 +18,6 @@
 
 - 📊 **Confidence Scoring**  
   Displays prediction confidence derived from softmax probabilities.
-
-- 🔁 **Seamless Model Upgrade**  
-  Backend upgraded from BiLSTM to Transformer without changing frontend or API contracts.
 
 ---
 
@@ -40,8 +40,6 @@
 - Axios  
 
 ---
-
-
 ## 📦 Installation & Setup
 
 ### 1. Backend
