@@ -2,9 +2,6 @@
 
 **Lumina Sentiment AI** is a premium full-stack sentiment analysis platform designed for the hospitality industry.  
 It uses a **Transformer-based deep learning model (DistilBERT)** to understand context, tone, and nuanced sentiment in guest reviews.
-
-The backend was upgraded from a **BiLSTM architecture to a Transformer model** while keeping the frontend and API structure unchanged, demonstrating a clean and modular system design.
-
 ---
 
 ## 🚀 Key Features
