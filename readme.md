@@ -1,17 +1,51 @@
 # Lumina Sentiment AI: Neural Sentiment Intelligence 🏨
 
-**Lumina Sentiment AI** is a premium full-stack sentiment analysis platform designed for the hospitality industry. It utilizes a **Bidirectional LSTM (Long Short-Term Memory)** neural network to interpret the nuance, sarcasm, and context of guest reviews.
+**Lumina Sentiment AI** is a premium full-stack sentiment analysis platform designed for the hospitality industry.  
+It uses a **Transformer-based deep learning model (DistilBERT)** to understand context, tone, and nuanced sentiment in guest reviews.
+
+The backend was upgraded from a **BiLSTM architecture to a Transformer model** while keeping the frontend and API structure unchanged, demonstrating a clean and modular system design.
+
+---
 
 ## 🚀 Key Features
-- **Bi-LSTM Neural Core:** Processes text sequences in both directions to capture complex context.
-- **Real-time Inference:** Powered by **FastAPI** for sub-second classification.
-- **Premium UX:** A glassmorphic **React** interface built with **Framer Motion** and **Tailwind CSS**.
-- **Confidence Scoring:** Provides a percentage match alongside the sentiment classification.
+
+- 🧠 **Transformer Neural Core (DistilBERT)**  
+  Captures long-range context and semantic meaning better than traditional sequence models.
+
+- ⚡ **Real-time Inference**  
+  Powered by **FastAPI** for low-latency sentiment classification.
+
+- 🎨 **Premium UX**  
+  Glassmorphic **React** interface built with **Framer Motion** and **Tailwind CSS**.
+
+- 📊 **Confidence Scoring**  
+  Displays prediction confidence derived from softmax probabilities.
+
+- 🔁 **Seamless Model Upgrade**  
+  Backend upgraded from BiLSTM to Transformer without changing frontend or API contracts.
+
+---
 
 ## 🛠️ Tech Stack
-- **AI/ML:** TensorFlow, Keras, NumPy, Pandas
-- **Backend:** FastAPI, Python 3.11, Uvicorn
-- **Frontend:** React (Vite), Tailwind CSS, Framer Motion, Axios
+
+### 🔹 AI / ML
+- TensorFlow 2.19  
+- Hugging Face Transformers  
+- DistilBERT (Transformer model)
+
+### 🔹 Backend
+- FastAPI  
+- Python 3.11  
+- Uvicorn  
+
+### 🔹 Frontend
+- React (Vite)  
+- Tailwind CSS  
+- Framer Motion  
+- Axios  
+
+---
+
 
 ## 📦 Installation & Setup
 
